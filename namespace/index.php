@@ -1,0 +1,22 @@
+<?php  
+
+require_once 'app/init.php';
+
+// $produk1 = new Game("Naruto","Masashi Kishimoto","Shoenin Jump",300000, 0, 50);
+// $produk2 = new Novel("Hujan","Tere Liye","PT Gramedia", 36000, 300, 0);
+
+// $cetakProduk = new cetakInfoProduk();
+// $cetakProduk->tambahProduk( $produk1 );
+// $cetakProduk->tambahProduk( $produk2 );
+
+// echo $cetakProduk->cetak();
+
+// echo"<hr>";
+use app\Service\user as Serviceuser;
+use app\Produk\user as Produkuser;
+
+
+new Serviceuser();
+echo "<br>";
+new Produkuser();
+
